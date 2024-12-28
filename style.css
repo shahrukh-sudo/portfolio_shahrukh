@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    height: 10vh; 
+  }
+  .item {
+    padding: 20px;
+    text-align: center;
+  }
+
+.home-container {
+display: flex;
+gap: 20px;
+align-items: flex-start;
+padding: 40px;
+align-items: stretch;
+}
+
+/* Box styles */
+.box {
+flex: 1;    
+background-color: #f4f4f4;
+border: 1px solid #ccc;
+width: 300px; 
+padding: 20px;  /* Adjust width as needed */
+text-align: center;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+border-radius: 10px; /* Rounded corners */
+}
+
+/* Box 1 specific styles */
+.home-container .box h1 {
+font-size: 20px;
+margin-bottom: 10px;
+color: #333; /* Darker text for heading */
+height: 50px;
+}
+
+.home-container .box p {
+font-size: 16px;
+color: #666; /* Subtle color for paragraph */
+margin-bottom: 15px;
+line-height: 1.6; /* Spacing between lines */
+}
+
+/* Profile picture styling */
+.profile-pic {
+width: 100px;
+height: 100px;
+border-radius: 50%; /* Makes the image circular */
+object-fit: cover;  /* Ensures the image fits inside the circle */
+margin-top: 10px;
+border: 2px solid #ccc;
+}
+.content {
+flex: 1; /* Ensures the content takes available space */
+}
+
+.content h1 {
+font-size: 24px;
+margin-bottom: 10px;
+color: #333; /* Darker text for heading */
+}
+
+.content p {
+font-size: 16px;
+color: #666; /* Subtle color for paragraph */
+line-height: 1.6; /* Spacing between lines */
+}
+.box {
+display: flex; /* Enables side-by-side layout */
+align-items: center; /* Vertically centers items */
+gap: 20px; /* Adds space between the text and image */
+background-color: #f4f4f4;
+border: 1px solid #ccc;
+padding: 20px;
+border-radius: 10px; /* Rounded corners */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.box2 {
+ flex: 1;   
+display: flex; /* Enables side-by-side layout */
+gap: 20px; /* Adds space between the text and image */
+background-color: #f4f4f4;
+border: 1px solid #ccc;
+padding: 20px;
+flex-direction: column;
+}
+
+.profiles {
+    display: flex;
+    gap: 50px; /* Space between icons */
+    margin-top: 10px;
+  }
+  
+  .profile-link {
+    align-items: center;
+    text-decoration: none;
+    color: #333; /* Default color */
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .profile-link:hover {
+    color: #0077b5; /* LinkedIn Blue */
+  }
+  
+  .profile-link i {
+    font-size: 40px;  /* Set icon size */
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .leet-code-icon {
+    margin-right: 8px; /* Space between icon and text */
+  }
+
+  .main-home{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .box3 h1 {
+    text-align: center; /* Center the text horizontally */
+    font-size: 28px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    color: #333; /* Optional: Customize the text color */
+}
+
+  .Skill-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    flex-wrap: wrap; /* Wrap icons if there are too many */
+    justify-content: center; /* Center-align icons */
+    margin-top: 10px;
+}
+
+.Skill-icons i, .Skill-icons img {
+    font-size: 40px; /* Icon size */
+    width: 50px; /* For custom images */
+    height: 50px; /* For custom images */
+    margin: 5px; /* Space around icons */
+}
+
+.Skill-icons i {
+    color: #333; /* Default icon color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.Skill-icons i:hover {
+    color: #0077b5; /* Change color on hover (e.g., LinkedIn Blue) */
+}
+
+.section.active {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
+}
