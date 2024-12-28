@@ -15,6 +15,7 @@ display: flex;
 gap: 20px;
 align-items: flex-start;
 padding: 40px;
+align-items: stretch;
 }
 
 /* Box styles */
@@ -120,6 +121,45 @@ flex-direction: column;
     flex-direction: row;
   }
 
-.box3{
+  .box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
+  .box3 h1 {
+    text-align: center; /* Center the text horizontally */
+    font-size: 28px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Add spacing below the heading */
+    color: #333; /* Optional: Customize the text color */
+}
+
+  .Skill-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    flex-wrap: wrap; /* Wrap icons if there are too many */
+    justify-content: center; /* Center-align icons */
+    margin-top: 10px;
+}
+
+.Skill-icons i, .Skill-icons img {
+    font-size: 40px; /* Icon size */
+    width: 50px; /* For custom images */
+    height: 50px; /* For custom images */
+    margin: 5px; /* Space around icons */
+}
+
+.Skill-icons i {
+    color: #333; /* Default icon color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.Skill-icons i:hover {
+    color: #0077b5; /* Change color on hover (e.g., LinkedIn Blue) */
+}
+
+.section.active {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
 }
